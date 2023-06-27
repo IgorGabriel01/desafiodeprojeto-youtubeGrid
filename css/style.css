@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F9F9F9;
+}
+
+.icones-div-header {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+#icon-igorgabriel {
+    height: 32px;
+    width: 32px;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 20px;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.div-aside {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 15px;
+}
+
+section {
+    padding: 30px 10px 20px 40px;
+    width: 85%;
+    height: 40vh;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(3, 250px);
+}
+
+.div-informacoes-video {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.icon-imagens-informacoes {
+    width: 36px;
+    height: 36px;
+}
+
+.div-textos-informacoes {
+    height: 150px;
+    margin-left: 10px;
+}
+
+.primeiro-p-fontpesada {
+    font-size: 0.8rem;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.segundo-p-fontleve {
+    font-weight: 350;
+    font-size: 0.7rem;
+}
